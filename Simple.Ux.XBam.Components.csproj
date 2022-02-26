@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\_games\Simple.Ux.Data\Simple.Ux.Data.csproj" />
+    <ProjectReference Include="..\..\Simple.Ux\Simple.Ux.Data\Simple.Ux.Data.csproj" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

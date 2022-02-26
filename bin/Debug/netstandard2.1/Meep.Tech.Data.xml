@@ -872,6 +872,18 @@
             Exposes the base set of builder Make functions that use a list of Params as their parameters publicly for ease of access. 
             </summary>
         </member>
+        <member name="M:Meep.Tech.Data.Archetype`2.IExposeDefaultModelBuilderMakeMethods.WithBuilderParameters.MakeDefaultBuilder">
+            <summary>
+            The builder for the base model type of this archetype.
+            You can override this and add more default props to the return for utility.
+            </summary>
+        </member>
+        <member name="M:Meep.Tech.Data.Archetype`2.IExposeDefaultModelBuilderMakeMethods.WithBuilderParameters.MakeBuilder(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            The builder for the base model type of this archetype.
+            You can override this and add more default props to the return for utility.
+            </summary>
+        </member>
         <member name="M:Meep.Tech.Data.Archetype`2.IExposeDefaultModelBuilderMakeMethods.WithBuilderParameters.Make">
             <summary>
             Make a default model from this Archetype
@@ -1485,6 +1497,18 @@
         <member name="T:Meep.Tech.Data.ArchetypePublicBuilderMakers">
             <summary>
             Public make extensions for archeytpes that implement Archetype.IExposePublicMakers.WithBuilderParameters or ..Fully
+            </summary>
+        </member>
+        <member name="M:Meep.Tech.Data.ArchetypePublicBuilderMakers.MakeDefaultBuilder``2(Meep.Tech.Data.Archetype{``0,``1}.IExposeDefaultModelBuilderMakeMethods.WithBuilderParameters)">
+            <summary>
+            The builder for the base model type of this archetype.
+            You can override this and add more default props to the return for utility.
+            </summary>
+        </member>
+        <member name="M:Meep.Tech.Data.ArchetypePublicBuilderMakers.MakeBuilder``2(Meep.Tech.Data.Archetype{``0,``1}.IExposeDefaultModelBuilderMakeMethods.WithBuilderParameters,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            The builder for the base model type of this archetype.
+            You can override this and add more default props to the return for utility.
             </summary>
         </member>
         <member name="M:Meep.Tech.Data.ArchetypePublicBuilderMakers.DefaultModelBuilders``2(Meep.Tech.Data.Archetype{``0,``1}.IExposeDefaultModelBuilderMakeMethods.WithBuilderParameters)">
@@ -4177,9 +4201,15 @@
             Get the first factory inherited by a given model:
             </summary>
         </member>
+        <member name="M:Meep.Tech.Data.Universe.ModelsData._findFirstInheritedDataItemFor``1(System.Type,System.Func{System.Type,``0},System.Func{System.Type,``0},System.Action{System.Type,``0})">
+            <summary>
+            Get the first factory inherited by a given model:
+            </summary>
+        </member>
         <member name="M:Meep.Tech.Data.Universe.ModelsData._findFirstInheritedCompareLogic(System.Type)">
             <summary>
             Get the first factory inherited by a given model:
+            TODO: this and the find first factory logic should be combined into one, with find first factory taking precidence. It's more up to date.
             </summary>
         </member>
         <member name="M:Meep.Tech.Data.Universe.ModelsData._makeDefaultCompareLogic">

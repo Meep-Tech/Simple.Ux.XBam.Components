@@ -324,8 +324,8 @@
     },
     "Simple.Ux.Data/1.0.0": {
       "type": "project",
-      "path": "../../_games/Simple.Ux.Data/Simple.Ux.Data.csproj",
-      "msbuildProject": "../../_games/Simple.Ux.Data/Simple.Ux.Data.csproj"
+      "path": "../Simple.Ux.Data/Simple.Ux.Data.csproj",
+      "msbuildProject": "../Simple.Ux.Data/Simple.Ux.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -378,24 +378,24 @@
         "net5.0": {
           "targetAlias": "net5",
           "projectReferences": {
-            "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\_games\\Simple.Ux.Data\\Simple.Ux.Data.csproj": {
-              "projectPath": "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\_games\\Simple.Ux.Data\\Simple.Ux.Data.csproj"
+            "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\Simple.Ux\\Simple.Ux.Data\\Simple.Ux.Data.csproj": {
+              "projectPath": "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\Simple.Ux\\Simple.Ux.Data\\Simple.Ux.Data.csproj"
             }
           }
         },
         "net6.0": {
           "targetAlias": "net6",
           "projectReferences": {
-            "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\_games\\Simple.Ux.Data\\Simple.Ux.Data.csproj": {
-              "projectPath": "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\_games\\Simple.Ux.Data\\Simple.Ux.Data.csproj"
+            "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\Simple.Ux\\Simple.Ux.Data\\Simple.Ux.Data.csproj": {
+              "projectPath": "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\Simple.Ux\\Simple.Ux.Data\\Simple.Ux.Data.csproj"
             }
           }
         },
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\_games\\Simple.Ux.Data\\Simple.Ux.Data.csproj": {
-              "projectPath": "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\_games\\Simple.Ux.Data\\Simple.Ux.Data.csproj"
+            "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\Simple.Ux\\Simple.Ux.Data\\Simple.Ux.Data.csproj": {
+              "projectPath": "C:\\Users\\super\\Projects\\meep-tech\\libraries\\c-sharp\\Simple.Ux\\Simple.Ux.Data\\Simple.Ux.Data.csproj"
             }
           }
         }
